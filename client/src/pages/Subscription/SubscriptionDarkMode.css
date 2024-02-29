@@ -1,0 +1,15 @@
+.main-container-dark {
+  background-color: #1a1625;
+  box-shadow: 4px 4px 20px #000000;
+  border: solid 0.3rem black;
+  color: #bab8b8;
+}
+.subscribe-btn-dark {
+  background-color: #bab8b8;
+  color: #000000;
+  box-shadow: 4px 4px 20px #000000;
+  border: solid 0.3rem black;
+}
+.subscribe-btn-dark:hover {
+  background-color: #000000;
+}

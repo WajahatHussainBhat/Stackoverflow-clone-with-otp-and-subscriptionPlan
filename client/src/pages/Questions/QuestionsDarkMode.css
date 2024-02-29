@@ -1,0 +1,38 @@
+.question-details-container-dark {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.506);
+}
+.question-details-container-dark .question-details-tags p,
+.post-ans-container-dark p .ans-tags {
+  background-color: #282828;
+  color: white;
+}
+.question-actions-user-dark button,
+.edit-question-btn-dark {
+  color: rgb(188, 184, 184);
+}
+.question-actions-user-dark button:active {
+  border-bottom: solid 2px #000000;
+}
+
+.post-ans-container-dark form textarea {
+  border: solid 1px rgba(255, 255, 255, 0.506);
+}
+
+.post-ans-container-dark form .post-ans-btn {
+  background-color: #282828;
+  color: white;
+  border: solid 1px black;
+}
+
+.post-ans-container-dark form .post-ans-btn:hover {
+  background-color: #191919;
+}
+
+.display-ans-dark {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.506);
+}
+
+.post-ans-container-dark textarea {
+  background-color: #1a1625;
+  color: white;
+}

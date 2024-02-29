@@ -1,0 +1,19 @@
+.edit-profile-btn-dark {
+  background-color: #8b8b8b;
+  border: solid 1px black;
+}
+.edit-profile-btn-dark:hover {
+  background-color: #777575;
+}
+.user-submit-btn-dark {
+  background-color: #8b8b8b;
+  border: solid 1px black;
+  color: black;
+}
+.user-submit-btn-dark:hover {
+  background-color: #777575;
+  color: white;
+}
+.user-cancel-btn-dark {
+  color: rgb(188, 184, 184);
+}

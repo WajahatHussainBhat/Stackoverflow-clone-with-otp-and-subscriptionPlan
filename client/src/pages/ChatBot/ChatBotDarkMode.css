@@ -1,0 +1,24 @@
+.chatBot-container-dark {
+  background-color: #1a1625;
+}
+.chatBot-container-dark .cs-message__content {
+  background-color: #bab8b8;
+  color: black;
+}
+.chatBot-container-dark .cs-message-input__content-editor-wrapper {
+  background-color: #bab8b8;
+}
+
+.chatBot-container-dark
+  .cs-message-input__content-editor[data-placeholder]:empty:before {
+  background-color: #bab8b8;
+  color: black;
+}
+
+.chatBot-container-dark .cs-button {
+  color: black;
+}
+.chatBot-container-dark .cs-message-input__content-editor {
+  background-color: #bab8b8;
+  color: black;
+}

@@ -1,0 +1,12 @@
+.tag-dark {
+  border: solid 1px #000000;
+}
+
+.tag-dark h5 {
+  background-color: #282828;
+  color: white;
+}
+
+.tag-dark p {
+  color: white;
+}

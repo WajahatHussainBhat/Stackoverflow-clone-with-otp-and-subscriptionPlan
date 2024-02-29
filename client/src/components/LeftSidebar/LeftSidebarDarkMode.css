@@ -1,0 +1,14 @@
+.activeDark {
+  color: white !important;
+  background-color: #000000 !important;
+}
+
+.side-nav-links-dark {
+  color: rgb(0, 0, 0);
+}
+.side-nav-links-dark:hover {
+  color: rgba(0, 0, 0, 0.324);
+}
+.globe-dark path {
+  fill: white !important;
+}

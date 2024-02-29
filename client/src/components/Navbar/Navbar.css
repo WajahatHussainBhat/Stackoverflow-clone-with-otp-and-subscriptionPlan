@@ -1,0 +1,168 @@
+.main-nav {
+  min-height: 50px;
+  width: 100%;
+  margin: 0% auto;
+  border-top: solid 3px #ef8236;
+  box-shadow: 0px 1px 5px #00000033;
+  position: fixed;
+  z-index: 5;
+  top: 0%;
+  left: 0%;
+  background-color: #f8f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  height: 100%;
+  min-width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  padding: 5px 25px;
+}
+
+.nav-item {
+  margin: 0px 3px;
+  font-size: small;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(69, 69, 69);
+  transition: 0.2s;
+}
+
+.nav-btn {
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.nav-item:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.navbar form {
+  flex-grow: 1;
+  padding: 0px 12px;
+  position: relative;
+}
+
+.navbar form input {
+  min-width: 90%;
+  margin: 0;
+  padding: 8px 10px 8px 32px;
+  font-size: 0.7rem;
+  border: solid 1px #0000003e;
+  border-radius: 3px;
+}
+
+.navbar form .search-icon {
+  position: absolute;
+  top: 8px;
+  left: 25px;
+}
+
+.nav-links {
+  padding: 7px 13px;
+  border: solid 1px blue;
+  border-radius: 3px;
+  background-color: #e7f8fe;
+  cursor: pointer;
+}
+
+.nav-links:hover {
+  background-color: #d3e4eb;
+}
+
+.sideMenu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 30%;
+  width: 50vw;
+  background-color: #ef8236;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.sideMenu-lg {
+  height: auto;
+  padding-bottom: 1.5rem;
+}
+
+.menuHeader {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.menuItems {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.menuItems .nav-item {
+  color: white;
+}
+
+.menuItems .nav-item:hover {
+  color: rgb(190, 186, 186);
+}
+
+#closeIcon {
+  color: white;
+  cursor: pointer;
+}
+
+#closeIcon:hover {
+  color: #0c2b3f;
+}
+
+.menuItems li a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.menuItems li a:hover {
+  color: #051825;
+  text-decoration: underline;
+}
+
+.question-li {
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-logo {
+    width: 15%;
+  }
+  .nav-logo img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .navbar form input {
+    min-width: 75%;
+  }
+  .navbar form {
+    margin: 0rem;
+  }
+  .nav-logo {
+    padding: 0;
+  }
+  .nav-links {
+    padding: 0.2rem 0.4rem;
+  }
+}

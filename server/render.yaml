@@ -1,0 +1,5 @@
+services:
+  - name: stack-overflow-clone
+    type: web
+    buildCommand: npm install
+    startCommand: npm start

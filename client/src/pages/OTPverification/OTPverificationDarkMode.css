@@ -1,0 +1,16 @@
+.OTP-verify-container-dark {
+  background-color: #1a1625;
+}
+.OTP-container-2-dark {
+  background-color: black;
+  box-shadow: 4px 4px 20px #575757;
+}
+.form-btn-dark {
+  background-color: #bab8b8;
+  color: #000000;
+  border: none;
+}
+.form-btn-dark:hover {
+  background-color: #3e3c3c;
+  color: white;
+}

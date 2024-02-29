@@ -1,0 +1,27 @@
+.main-nav-dark {
+  background-color: #282828;
+  box-shadow: 0px 1px 5px #ffffff67;
+}
+
+.nav-item-dark {
+  color: white;
+}
+
+.nav-item-dark:hover {
+  background-color: #000000;
+}
+.nav-links-dark {
+  background-color: #8b8b8b;
+  border: none;
+}
+.dark-search {
+  background-color: #8b8b8b;
+  color: black;
+}
+.dark-search::placeholder {
+  color: #000000;
+}
+
+.sideMenudark {
+  background-color: #000000;
+}

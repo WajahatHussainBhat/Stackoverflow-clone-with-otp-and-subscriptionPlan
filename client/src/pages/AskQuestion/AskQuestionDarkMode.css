@@ -1,0 +1,14 @@
+.ask-question-dark {
+  background-color: #3f3f3f;
+}
+.ask-ques-conatiner-dark form .ask-form-container {
+  background-color: #282828;
+}
+.review-btn-dark {
+  background-color: #282828;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+.review-btn-dark:hover {
+  background-color: black;
+}

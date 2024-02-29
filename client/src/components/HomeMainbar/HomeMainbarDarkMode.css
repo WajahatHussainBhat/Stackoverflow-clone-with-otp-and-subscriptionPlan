@@ -1,0 +1,20 @@
+.main-bar-header-dark .ask-btn {
+  background-color: #8b8b8b;
+  color: white;
+}
+.main-bar-header-dark .ask-btn:hover {
+  background-color: black;
+}
+.display-question-container-dark {
+  background-color: #1a1625;
+  border-bottom: solid 1px #8b8b8b;
+}
+
+.question-title-link-dark {
+  color: white;
+}
+
+.display-tags-time-dark .display-tags p {
+  background-color: #282828;
+  color: white;
+}
