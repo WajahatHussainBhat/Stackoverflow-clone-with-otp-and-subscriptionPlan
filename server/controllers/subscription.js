@@ -19,8 +19,8 @@ const stripeSession = async (plan) => {
           quantity: 1,
         },
       ],
-      success_url: "/Success",
-      cancel_url: "/Cancel",
+      success_url: "https://stack-overflow-clone-by-wajahat.netlify.app/Success",
+      cancel_url: "https://stack-overflow-clone-by-wajahat.netlify.app/Cancel",
     });
     return session;
   } catch (error) {
