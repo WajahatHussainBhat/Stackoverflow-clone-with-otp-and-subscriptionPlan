@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/Success"
+  to = "https://stack-overflow-clone-by-wajahat.netlify.app/Success"
+  status = 200
+
+[[redirects]]
+  from = "/Cancel"
+  to = "https://stack-overflow-clone-by-wajahat.netlify.app/Cancel"
+  status = 200
