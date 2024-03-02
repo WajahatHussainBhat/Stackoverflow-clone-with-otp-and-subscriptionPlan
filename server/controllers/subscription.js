@@ -19,8 +19,8 @@ const stripeSession = async (plan) => {
           quantity: 1,
         },
       ],
-      success_url: "https://stackoverflow-clone-with-otp-and-subscription-plan.vercel.app/Success",
-      cancel_url: "https://stackoverflow-clone-with-otp-and-subscription-plan.vercel.app/Cancel",
+      success_url: "https://stackoverflow-clone-by-wajahat.vercel.app/Success",
+      cancel_url: "https://stackoverflow-clone-by-wajahat.vercel.app/Cancel",
     });
     return session;
   } catch (error) {
