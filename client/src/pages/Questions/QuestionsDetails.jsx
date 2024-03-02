@@ -92,7 +92,7 @@ const QuestionsDetails = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const location = useLocation();
-  const url = "http://localhost:5001";
+  const url = "https://stackoverflow-clone-with-otp-and.onrender.com";
 
   const handlePostAnswer = (e, answerLength) => {
     e.preventDefault();

@@ -128,13 +128,16 @@
   color: #0c2b3f;
 }
 
-.menuItems li a {
+.menuItems .menu-nav-link {
   cursor: pointer;
   color: white;
   text-decoration: none;
+  font-weight: normal;
+  border: none;
+  background-color: transparent;
 }
 
-.menuItems li a:hover {
+.menuItems .menu-nav-link:hover {
   color: #051825;
   text-decoration: underline;
 }

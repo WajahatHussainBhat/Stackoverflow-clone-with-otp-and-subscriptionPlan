@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { jwtDecode } from "jwt-decode";
 import { useMediaQuery } from "react-responsive";
@@ -142,31 +142,31 @@ const Navbar = () => {
             </div>
             <ul className="menuItems">
               <li>
-                <a href="/">About</a>
+                <NavLink to="/" className="menu-nav-link">About</NavLink>
               </li>
               <li>
-                <a href="/">Products</a>
+                <NavLink to="/" className="menu-nav-link">Products</NavLink>
               </li>
               <li>
-                <a href="/">For Teams</a>
+                <NavLink to="/" className="menu-nav-link">For Teams</NavLink>
               </li>
               {isMobileScreen && (
               <>
                 <li className="question-li">
                   <img src={ GlobeDark} alt="Globe" />
-                  <a href="/Questions">Questions</a>
+                  <NavLink to="/Questions" className="menu-nav-link">Questions</NavLink>
                 </li>
                 <li>
-                  <a href="/Tags">Tags</a>
+                  <NavLink to="/Tags" className="menu-nav-link">Tags</NavLink>
                 </li>
                 <li>
-                  <a href="/Users">Users</a>
+                  <NavLink to="/Users" className="menu-nav-link">Users</NavLink>
                 </li>
                 <li>
-                  <a href="/ChatBot">Ask ChatBot</a>
+                  <NavLink to="/ChatBot" className="menu-nav-link">Ask ChatBot</NavLink>
                 </li>
                 <li>
-                  <a href="/Subscription">Subscription Plans</a>
+                  <NavLink to="/Subscription" className="menu-nav-link">Subscription Plans</NavLink>
                 </li>
               </>
             )}
