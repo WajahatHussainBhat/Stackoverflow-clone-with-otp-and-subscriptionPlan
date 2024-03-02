@@ -1,5 +1,5 @@
 services:
-  - name: stack-overflow-clone
+  - name: Stackoverflow-clone-with-otp-and-subscriptionPlan
     type: web
     buildCommand: npm install
     startCommand: npm start
